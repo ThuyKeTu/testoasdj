@@ -13,7 +13,7 @@
 .bill{
     height: 2048px;
     width: 946px;
-    overflow: hidden;
+    overflow: scroll;
     background: transparent;
     position: relative;
 }
