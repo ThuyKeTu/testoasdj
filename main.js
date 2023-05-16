@@ -21,7 +21,7 @@ function gettime(){
     if(mo<10) mo = "0"+mo
     if(d<10) d = "0"+d
 
-    let date =h+":"+m+" "+d+'-'+mo+'-'+y;
+    let date =h+":"+m+" "+d+'/'+mo+'/'+y;
     let time = h+":"+m
     document.querySelector(".timetop").textContent = date
     document.querySelector(".timebot").textContent = date
